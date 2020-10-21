@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Message = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -34,17 +35,29 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Message
+        '
+        Me.Message.AutoSize = True
+        Me.Message.Location = New System.Drawing.Point(165, 37)
+        Me.Message.Name = "Message"
+        Me.Message.Size = New System.Drawing.Size(39, 13)
+        Me.Message.TabIndex = 1
+        Me.Message.Text = "Label1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(851, 507)
+        Me.ClientSize = New System.Drawing.Size(851, 127)
+        Me.Controls.Add(Me.Message)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Button1 As Button
+    Friend WithEvents Message As Label
 End Class

@@ -52,7 +52,7 @@
       <HintPath>..\packages\FirebirdSql.Data.FirebirdClient.7.5.0\lib\net452\FirebirdSql.Data.FirebirdClient.dll</HintPath>
     </Reference>
     <Reference Include="IAFConfiguration">
-      <HintPath>O:\Dashboards - Development SHADOW\NEW SHADOW DASHBOARDS\Finances-Dashboard\bin\Debug\IAFConfiguration.dll</HintPath>
+      <HintPath>..\..\Finances-Dashboard\bin\Debug\IAFConfiguration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
